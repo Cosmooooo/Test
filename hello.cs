@@ -3,8 +3,13 @@ namespace HelloWorld
     class Hello {         
         static void Main(string[] args)
         {
-            System.Console.WriteLine("hello world");
+            helloworld();
             System.Console.WriteLine("hello world 222");
+        }
+
+        void helloworld()
+        {
+            System.Console.WriteLine("hello world");
         }
     }
 }
